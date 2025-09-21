@@ -1,0 +1,13 @@
+name: PacketAnalyser
+version: '1.0-stable'
+main: io.reallmerry.rStudio.PacketAnalyser
+api-version: '1.21'
+load: STARTUP
+authors: [ reallmerry, rStudio ]
+description: Packet analysis. An essential tool for plugin developers, especially anti-cheats.
+website: reallmerry.github.io
+depend: [ProtocolLib]
+commands:
+  packets:
+   description: "Primary command for packet analysis."
+   permission:  "packetanalyser.using"
